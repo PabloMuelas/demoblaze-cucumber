@@ -19,7 +19,7 @@ module.exports = defineConfig({
     watchForFileChanges: false,
     setupNodeEvents,
     specPattern: "cypress/e2e/features/**/*.feature",
-    baseUrl: "https://www.saucedemo.com",
+    baseUrl: "https://demoblaze.com/",
     chromeWebSecurity: false,
   },
 });
