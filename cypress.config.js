@@ -19,6 +19,8 @@ module.exports = defineConfig({
     watchForFileChanges: false,
     setupNodeEvents,
     specPattern: "cypress/e2e/features/**/*.feature",
+    viewportWidth: 1920,
+    viewportHeight: 1080,
     baseUrl: "https://demoblaze.com/",
     chromeWebSecurity: false,
   },
